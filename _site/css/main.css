@@ -1917,7 +1917,7 @@ button,
 .wrapper {
   padding: 6em 0 4em 0 ; }
   .wrapper > .inner {
-    width: 60em;
+    width: 70em;
     margin: 0 auto; }
     @media screen and (max-width: 1280px) {
       .wrapper > .inner {
@@ -2685,8 +2685,8 @@ body.is-mobile.landing #footer {
   body { font-family: sans-serif; }
 
 .scene {
-  width: 200px;
-  height: 260px;
+  width: 23.83em;
+  height: 25em;
   margin: 40px 0;
   perspective: 600px;
 }
