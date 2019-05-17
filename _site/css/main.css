@@ -1928,7 +1928,7 @@ button,
   .wrapper.alt {
     padding: 0; }
   .wrapper.style1 {
-    background-color: #21b2a6;
+    background-color: rgba(42,52,62,1);
     color: #c8ece9; }
     .wrapper.style1 strong, .wrapper.style1 b {
       color: #ffffff; }
@@ -2017,7 +2017,7 @@ button,
   .wrapper.style2 {
     background-color: #2e3842; }
   .wrapper.style3 {
-    background-color: #505393;
+    background-color: #274690;
     color: #d3d4e4; }
     .wrapper.style3 strong, .wrapper.style3 b {
       color: #ffffff; }
@@ -2229,7 +2229,7 @@ button,
   -ms-transition: -ms-transform 0.5s ease;
   transition: transform 0.5s ease;
   -webkit-overflow-scrolling: touch;
-  background: #21b2a6;
+  background: rgb(60,70,80);
   color: #ffffff;
   height: 100%;
   max-width: 80%;
@@ -2709,7 +2709,6 @@ body.is-mobile.landing #footer {
   width: 100%;
   height: 100%;
   line-height: 260px;
-  color: white;
   text-align: center;
   font-weight: bold;
   font-size: 40px;
@@ -2717,10 +2716,12 @@ body.is-mobile.landing #footer {
 }
 
 .card__face--front {
-  background: red;
+  background: #247BA0;
+  color:white;
 }
 
 .card__face--back {
-  background: blue;
+  background: rgb(140,140,140);
   transform: rotateY(180deg);
+  color: white;
 }
