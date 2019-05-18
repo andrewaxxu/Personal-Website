@@ -1873,3 +1873,6 @@ $baseurl: '{{ site.baseurl }}/images';
 	  transform: rotateY(180deg);
 	  color: white;
 	}
+	html {
+	  scroll-behavior: smooth;
+	}
